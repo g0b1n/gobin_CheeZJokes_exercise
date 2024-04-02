@@ -1,0 +1,40 @@
+.Joke {
+    background-color: #fff;
+    border: 2px solid #ddd;
+    padding: 20px;
+    margin: 10px 0;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Joke-text {
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.Joke-votearea {
+    display: flex;
+    align-items: center;
+}
+
+.Joke-votearea button {
+    background-color: #0088cc;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+}
+
+.Joke-votearea button:hover {
+    background-color: #005f8b;
+}
+
+.Joke-votearea i {
+    margin: 0 10px;
+}
+
+.votes {
+    margin: 0 15px;
+    font-size: 24px;
+}
